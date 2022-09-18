@@ -1,0 +1,4 @@
+
+# sandbox
+start msedge https://console-openshift-console.apps.sandbox-m2.ll9k.p1.openshiftapps.com/
+export KUBECONFIG=~/.kube/sandbox ; oc login --token=sha256~WgB2k3lABwKWMYG-rjwbCuKMrzrr0l-CbAn3ZfWABa4 --server=https://api.sandbox-m2.ll9k.p1.openshiftapps.com:6443
